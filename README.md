@@ -19,3 +19,10 @@ Tools used:
 Java (JDK 17+ recommended)
 Visual Studio Code
 Terminal / PowerShell
+
+## Screenshots
+
+Here is the calculator running:
+
+![Calculator Screenshot](images/output.png)
+![Calculator Screenshot](images/loop.png)
