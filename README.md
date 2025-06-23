@@ -24,5 +24,5 @@ Terminal / PowerShell
 
 Here is the calculator running:
 
-![Calculator Screenshot](images/output.png)
-![Calculator Screenshot](images/loop.png)
+![Calculator Screenshot1](images/output.png)
+![Calculator Screenshot2](images/loop.png)
