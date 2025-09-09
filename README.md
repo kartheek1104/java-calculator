@@ -1,29 +1,43 @@
-# Java Console Calculator
+# Scientific Calculator (Java)
 
-A basic command-line calculator built with Java. Supports:
+A full-featured **Scientific Calculator** implemented in **Java Swing**.  
+Supports both **basic** and **scientific operations** with a polished GUI.
 
-- Addition
-- Subtraction
-- Multiplication
-- Division
-- Multiple number inputs
-- Repeated operations in a loop until exit
+## Features
+
+- Basic arithmetic: `+`, `-`, `*`, `/`, `%`
+- Scientific functions: `sin`, `cos`, `tan`, `asin`, `acos`, `atan`, `sqrt`, `cbrt`, `log`, `ln`, `exp`, `abs`
+- Factorials (`!`), powers (`x^2`, `x^3`), permutation (`nPr`) and combination (`nCr`)
+- Degree and Radian modes
+- Memory functions: `M+`, `M-`, `MR`, `MC`
+- Expression parsing and calculation
+- History of previous calculations
+- Toggle between basic and scientific modes
+
+## Requirements
+
+- Java 8 or higher
+- Swing (built-in with Java)
+- IDE (optional, e.g., VS Code, IntelliJ IDEA, Eclipse)
 
 ## How to Run
 
-1. Compile the program:
-   ```bash
-   javac Calculator.java
+1. Clone the repository:
 
-Tools used:
-Java (JDK 17+ recommended)
-Visual Studio Code
-Terminal / PowerShell
+```bash
+git clone https://github.com/your-username/java-calculator.git
+```
 
-## Screenshots
+2. Navigate to the project folder:
+```bash
+cd java-calculator
+```
+3. Compile the Java files:
+```bash
+javac ScientificCalculator.java
+```
 
-Here is the calculator running:
-
-![Screenshot1](images/output.png)
-
-![Screenshot2](images/loop.png)
+4. Run the application:
+```bash
+java ScientificCalculator
+```

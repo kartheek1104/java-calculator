@@ -1,4 +1,27 @@
-echo "*.class" > .gitignore
-git add .gitignore
-git commit -m "Add .gitignore to exclude compiled files"
-git push
+# Compiled class files
+*.class
+
+# Package Files
+*.jar
+*.war
+*.ear
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+*.project
+*.classpath
+*.settings/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
